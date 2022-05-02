@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3f87af079e460935fb8fa.jpg",
+        photo=f"https://telegra.ph/file/c0d235b45d3366ec2fd3c.jpg",
         caption=f"""**I ᴀᴍ 𝘾𝙊𝘽𝙍𝘼 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
 ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘾𝙊𝘽𝙍𝘼](https://t.me/COBRA8XOP)**""",
     reply_markup=InlineKeyboardMarkup(
