@@ -34,13 +34,13 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/3f87af079e460935fb8fa.jpg",
-        caption=f"""**I ᴀᴍ 𝙉𝙖𝙫𝙔𝙖 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝙉𝙖𝙫𝙮𝙖](https://t.me/WTF_NAVYA)**""",
+        caption=f"""**I ᴀᴍ 𝘾𝙊𝘽𝙍𝘼 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘾𝙊𝘽𝙍𝘼](https://t.me/COBRA8XOP)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/NavyaSupport")
+                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/Secret_house00")
                 ]
                 
            ]
@@ -48,7 +48,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "hi", "Navya"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "hi", "Cobra"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/06f33456a78b0161843d8.jpg",
@@ -57,7 +57,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/TheNavya")
+                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/Secret_house00")
                 ]
             ]
         ),
@@ -67,13 +67,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f01b866242fa4e3bf74ad.jpg",
+        photo=f"https://telegra.ph/file/bece3566c902b83dd41de.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ❰𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙮❱ ", url=f"https://t.me/TheNavya")
+                        " ❰𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙮❱ ", url=f"https://t.me/TheCobra")
                 ]
             ]
         ),
