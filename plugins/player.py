@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Navya Developer",
+        f"Powered By: Cobra Devloper",
         (255, 255, 255),
         font=font,
     )
@@ -99,7 +99,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#","N"])
+    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#","/Nancy"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**𝑺𝒆𝒂𝒓𝒄𝒉𝒊𝒏𝒈**\n\n0% ▓𝐍▓𝐀▓𝐕▓𝐘▓𝐀▓100% ...**")
+    lel = await message.reply("**𝑺𝒆𝒂𝒓𝒄𝒉𝒊𝒏𝒈**\n\n0% ▓▓▓▓▓▓▓▓100% ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Navya_Player"
+        user.first_name = "Cobra_Player"
     usar = user
     wew = usar.id
     try:
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @WTF_NAVYA** ")
+                        f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @COBRA8XOP** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @WTF_NAVYA**")
+            f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @COBRA8XOP**")
         return
     
     audio = (
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/1277ee2909b4d717d0a34.jpg"
+        thumb_name = "https://telegra.ph/file/e75e869fc93718094b3c5.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/Thenavya")
+                            url=f"https://t.me/Secret_house00")
 
                 ]
             ]
@@ -213,7 +213,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/NavyaSupport")
+                            url=f"https://t.me/Secret_house00")
 
                 ]
             ]
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/NavyaSupport")
+                            url=f"https://t.me/Secret_house00")
                 ]
             ]
         )
@@ -247,7 +247,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**𝑮𝒊𝒗𝒆 𝑴𝒖𝒔𝒊𝒄 𝑵𝒂𝒎𝒆\n𝑻𝒐 𝑷𝒍𝒂𝒚...**"
             )
-        await lel.edit("**𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈**\n\n0% ▓𝐍▓𝐀▓𝐕▓𝐘▓𝐀▓ 100%**")
+        await lel.edit("**𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈**\n\n0% ▓▓▓▓▓▓▓▓100%**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -282,7 +282,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/NavyaSupport")
+                            url=f"https://t.me/Secret_house00")
 
                 ]
             ]
@@ -384,7 +384,7 @@ async def skip(_, message: Message):
    ) 
 
 
-@Client.on_message(commandpro(["/end", "end", "/stop", "stop", "x"]) & other_filters)
+@Client.on_message(commandpro(["/end", "end", "/stop", "stop", "/Ruk"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -396,7 +396,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/a40541641f131c5f1a923.jpg", 
-                             caption="**𝙉𝙖𝙫𝙮𝙖 𝙈𝙪𝙨𝙞𝙘 𝑵𝒐𝒘\n 𝑬𝒏𝒅𝒆𝒅🤗...**"
+                             caption="**𝘾𝙤𝙗𝙧𝙖 𝙈𝙪𝙨𝙞𝙘 𝑵𝒐𝒘\n 𝑬𝒏𝒅𝒆𝒅🤗...**"
     )
 
 
